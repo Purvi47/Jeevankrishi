@@ -1,4 +1,4 @@
-// Placeholder for future API calls
+
 import axios from 'axios';
 
 export const api = axios.create({
