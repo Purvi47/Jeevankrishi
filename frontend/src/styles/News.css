@@ -1,0 +1,35 @@
+.news-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.news-card {
+  border-left: 6px solid #4CAF50;
+  background: #f9f9f9;
+  padding: 16px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  text-decoration: none;
+  color: #222;
+  display: block;
+  transition: 0.3s;
+}
+
+.news-card:hover {
+  background: #e7f5ea;
+}
+
+.news-card h3 {
+  margin: 0 0 10px;
+  font-size: 1.2rem;
+}
+
+.news-card p {
+  margin: 0 0 10px;
+}
+
+.news-card .source {
+  font-size: 0.85rem;
+  color: #555;
+}

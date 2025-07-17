@@ -1,0 +1,122 @@
+General
+.home {
+  font-family: 'Segoe UI', sans-serif;
+  color: #2e2e2e;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  background-color: #f1f8e9;
+}
+
+.hero-left {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  min-width: 300px;
+}
+
+.hero-left img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  object-fit: contain;
+}
+.hero-image img {
+  width: 100%;
+  height: 400px; /* adjust height as needed */
+  object-fit: cover;
+  display: block;
+  border-bottom: 4px solid #2e7d32;
+}
+
+.hero-right {
+  flex: 1;
+  text-align: center;
+  padding: 20px;
+  min-width: 300px;
+}
+
+.hero-right h1 {
+  font-size: 2.8rem;
+  margin-bottom: 15px;
+}
+
+.highlight {
+  color: #fdd835;
+  font-weight: 800;
+}
+
+.hero-right p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.explore-btn {
+  background-color: #2e7d32;
+  color: white;
+  padding: 12px 30px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.explore-btn:hover {
+  background-color: #388e3c;
+  transform: scale(1.05);
+}
+
+/* Features Section */
+.features {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #fafafa;
+}
+
+.features h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.feature-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+.feature-card {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  width: 280px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.07);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.feature-card h3 {
+  font-size: 1.3rem;
+  margin-bottom: 12px;
+}
+
+/* Footer */
+.footer {
+  background-color: #2e7d32;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 0.95rem;
+}
