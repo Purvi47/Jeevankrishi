@@ -3,4 +3,5 @@ backend/venv/
 *.dll
 *.pyd
 __pycache__/
-.env
+
+**/.env
